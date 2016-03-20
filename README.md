@@ -1,0 +1,3 @@
+# \#AIMTECHackathon WiFi locator project
+
+Lorem ipsum dolor sit amet..........

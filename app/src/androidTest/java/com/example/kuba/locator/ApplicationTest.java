@@ -1,4 +1,4 @@
-package com.example.kuba.fuckthis;
+package com.example.kuba.locator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

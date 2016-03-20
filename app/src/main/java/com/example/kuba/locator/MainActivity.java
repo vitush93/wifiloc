@@ -1,4 +1,4 @@
-package com.example.kuba.fuckthis;
+package com.example.kuba.locator;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -106,8 +106,8 @@ public class MainActivity extends Activity {
             String labelText = "";
             for (int i = 0; i < wifiList.size(); i++) {
                 if (wifiList.size() == 0) break;
-                if (scanArrayList.size() >= 2) break;
-                if (wifiList.get(i).frequency < 5000) continue;
+                //if (scanArrayList.size() >= 7) break;
+                //if (wifiList.get(i).frequency < 5000) continue;
 
                 ScanResult result = extractMaxSignal(wifiList);
 
@@ -121,7 +121,7 @@ public class MainActivity extends Activity {
 
             if (!scanArrayList.isEmpty()) {
                 System.out.println(locationComp.getLocation(scanArrayList).toString());
-                ratio.addAll(scanArrayList);
+                //ratio.addAll(scanArrayList);
             }
 
             mainText.setText(labelText);

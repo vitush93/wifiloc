@@ -1,4 +1,4 @@
-package com.example.kuba.fuckthis;
+package com.example.kuba.locator;
 
 public class Scan {
     private String bssid;

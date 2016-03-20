@@ -1,4 +1,4 @@
-package com.example.kuba.fuckthis;
+package com.example.kuba.locator;
 
 import java.util.Collection;
 import java.util.HashMap;
